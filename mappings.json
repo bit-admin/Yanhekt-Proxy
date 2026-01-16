@@ -1,0 +1,49 @@
+{
+  "cbiz.yanhekt.cn": {
+    "type": "loadbalance",
+    "ips": ["10.0.34.22", "10.0.34.21"],
+    "strategy": "round_robin"
+  },
+  "clive8.yanhekt.cn": {
+    "type": "loadbalance",
+    "ips": ["10.1.233.208", "10.1.233.201", "10.1.233.210", "10.1.233.207", "10.1.233.209", "10.1.233.206"],
+    "strategy": "round_robin"
+  },
+  "clive9.yanhekt.cn": {
+    "type": "loadbalance",
+    "ips": ["10.1.233.206", "10.1.233.207", "10.1.233.210", "10.1.233.208", "10.1.233.209", "10.1.233.201"],
+    "strategy": "round_robin"
+  },
+  "clive10.yanhekt.cn": {
+    "type": "loadbalance",
+    "ips": ["10.1.233.209", "10.1.233.208", "10.1.233.210", "10.1.233.207", "10.1.233.201", "10.1.233.206"],
+    "strategy": "round_robin"
+  },
+  "clive11.yanhekt.cn": {
+    "type": "loadbalance",
+    "ips": ["10.1.233.210", "10.1.233.207", "10.1.233.208", "10.1.233.209", "10.1.233.201", "10.1.233.206"],
+    "strategy": "round_robin"
+  },
+  "clive12.yanhekt.cn": {
+    "type": "loadbalance",
+    "ips": ["10.1.233.208", "10.1.233.209", "10.1.233.201", "10.1.233.206", "10.1.233.210", "10.1.233.207"],
+    "strategy": "round_robin"
+  },
+  "clive13.yanhekt.cn": {
+    "type": "loadbalance",
+    "ips": ["10.1.233.210", "10.1.233.207", "10.1.233.209", "10.1.233.206", "10.1.233.208", "10.1.233.201"],
+    "strategy": "round_robin"
+  },
+  "clive14.yanhekt.cn": {
+    "type": "single",
+    "ip": "10.0.34.207"
+  },
+  "clive15.yanhekt.cn": {
+    "type": "single",
+    "ip": "10.0.34.208"
+  },
+  "cvideo.yanhekt.cn": {
+    "type": "single",
+    "ip": "10.0.34.24"
+  }
+}
