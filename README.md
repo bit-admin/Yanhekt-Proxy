@@ -1,3 +1,5 @@
+For edge function version, please refer to [worker/README.md](worker/README.md)
+
 # Video Proxy Server
 
 A stateless video proxy server for HLS streaming with DRM protection. Designed for deployment on Linux VMs.

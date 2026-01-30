@@ -1,0 +1,10 @@
+# Cloudflare Worker configuration
+name = "media-transform"
+main = "dist/index.js"
+compatibility_date = "2024-01-01"
+minify = true
+
+[vars]
+UPSTREAM_API = "https://cbiz.yanhekt.cn"
+VIDEO_HOST = "cvideo.yanhekt.cn"
+MAGIC_KEY = "1138b69dfef641d9d7ba49137d2d4875"

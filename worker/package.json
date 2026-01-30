@@ -1,0 +1,21 @@
+{
+  "name": "media-transform-worker",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "node build.mjs",
+    "deploy": "npm run build && wrangler deploy",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240117.0",
+    "esbuild": "^0.20.0",
+    "javascript-obfuscator": "^4.1.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0",
+    "wrangler": "^4.61.1"
+  }
+}
